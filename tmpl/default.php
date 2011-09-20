@@ -16,4 +16,3 @@ echo $he->getHora();
 echo $modafter;
 ?>
 </div>
-

@@ -18,5 +18,3 @@ $modbefore = htmlspecialchars_decode(($params->get('modbefore','')));
 $modafter = htmlspecialchars_decode(($params->get('modafter','')));
 
 require JModuleHelper::getLayoutPath('mod_horaexata', 'default');
-
-
