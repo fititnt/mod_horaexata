@@ -11,9 +11,11 @@ defined('_JEXEC') or die;
 // Include helper.php once
 require_once dirname(__FILE__).'/helper.php';
 
+$he = new HoraExata;
+
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx', NULL));
-
-
+$modbefore = htmlspecialchars_decode(($params->get('modbefore','')));
+$modafter = htmlspecialchars_decode(($params->get('modafter','')));
 
 require JModuleHelper::getLayoutPath('mod_horaexata', 'default');
 

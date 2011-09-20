@@ -10,6 +10,10 @@ defined('_JEXEC') or die;
 ?>
 
 <div class="horaexata<?php echo $moduleclass_sfx; ?>">
-<?php echo $pageimported; ?>
+<?php 
+echo $modbefore;
+echo $he->getHora(); 
+echo $modafter;
+?>
 </div>
 
