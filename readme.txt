@@ -1,4 +1,4 @@
-PHP Joomla 1.6+ Module
+PHP Joomla 1.5 Module
 PHP | Joomla | Modulo para exibir hora exata do Brasil, direto de http://pcdsh01.on.br/HoraLegalBrasileira.asp
 Author: Emerson Rocha Luiz - http://fititnt.org - http://twitter.com/fititnt - Email: emerson at webdesign.eng.br
 
@@ -10,7 +10,7 @@ Instalar e sair usando. Não há recomendações especiais
 Caso por algum motivo, o acesso ao site de origem da hora legal brasileira esteja prejudicado, por questões
 também lógicas, seu módulo irá parar de funcionar
 
-------- Important -------
+------- Todo -------
 + Adicionar tratamento de erros melhorado
 + Adicionar modo melhorado de exibição da data
 
