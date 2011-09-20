@@ -3,16 +3,16 @@ PHP | Joomla | Modulo para exibir hora exata do Brasil, direto de http://pcdsh01
 Author: Emerson Rocha Luiz - http://fititnt.org - http://twitter.com/fititnt - Email: emerson at webdesign.eng.br
 
 ------- Basic usage -------
-Instalar e sair usando. N„o h· recomendaÁıes especiais
+Instalar e sair usando. N√£o h√° recomenda√ß√µes especiais
 
 
 ------- Important -------
-Caso por algum motivo, o acesso ao site de origem da hora legal brasileira esteja prejudicado, por questıes
-tambÈm lÛgicas, seu mÛdulo ir· parar de funcionar
+Caso por algum motivo, o acesso ao site de origem da hora legal brasileira esteja prejudicado, por quest√µes
+tamb√©m l√≥gicas, seu m√≥dulo ir√° parar de funcionar
 
-------- Important -------
+------- Todo -------
 + Adicionar tratamento de erros melhorado
-+ Adicionar modo melhorado de exibiÁ„o da data
++ Adicionar modo melhorado de exibi√ß√£o da data
 
 ------- Changelog -------
 
