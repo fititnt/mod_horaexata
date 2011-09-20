@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	method="upgrade"
+	version="1.6">
+	<name>mod_horaexata</name>
+	<author>Emerson Rocha Luiz</author>
+	<creationDate>2011-09-19</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Webdesign Assessoria em Tecnologia da Informacao.</copyright>
+	<license>GNU General Public License version 3</license>
+	<authorEmail>emerson@webdesign.eng.br</authorEmail>
+	<authorUrl>http://fititnt.org</authorUrl>
+	<version>0.1alpha</version>
+	<description>MOD_HORAEXATA_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_horaexata">mod_horaexata.php</filename>
+                <filename>helper.php</filename>
+		<filename>index.html</filename>
+                <filename>readme.txt</filename>
+                <filename>changelog.txt</filename>
+		<folder>tmpl</folder>
+                <folder>languages</folder>
+	</files>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.mod_horaexata.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_horaexata.sys.ini</language>
+	</languages>
+		
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                                <field
+					name="moduleclass_sfx"
+					type="text"
+					label="MOD_HORAEXATA_MODULECLASSSFX_LABEL"
+					description="MOD_HORAEXATA_MODULECLASSSFX_DESC"
+					default="">
+				</field>                                
+			</fieldset>
+		</fields>
+	</config>
+</extension>
