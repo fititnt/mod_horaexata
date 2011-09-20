@@ -17,10 +17,37 @@
         <filename>helper.php</filename>
         <filename>index.html</filename>
         <filename>readme.txt</filename>
+        <filename>license.txt</filename>
         <folder>tmpl</folder>
         <folder>languages</folder>
     </files>
     <languages folder="languages">
         <language tag="en-GB">en-GB/en-GB.mod_horaexata.ini</language>
     </languages>
+    
+    <params>
+        <param
+            name="moduleclass_sfx"
+            type="text"
+            label="MOD_HORAEXATA_MODULECLASSSFX_LABEL"
+            description="MOD_HORAEXATA_MODULECLASSSFX_DESC"
+            default="">
+        </param>  
+        <param
+            name="modbefore"
+            type="textarea"
+            cols="45"
+            rows="8"
+            label="MOD_HORAEXATA_MODBEFORE_LABEL"
+            description="MOD_HORAEXATA_MODBEFORE_DESC">
+        </param>
+        <param
+            name="modafter"
+            type="textarea"
+            cols="45"
+            rows="8"
+            label="MOD_HORAEXATA_MODAFTER_LABEL"
+            description="MOD_HORAEXATA_MODAFTER_DESC">
+        </param>
+    </params>
 </install>
