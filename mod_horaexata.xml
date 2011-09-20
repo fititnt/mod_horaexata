@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension
+<install 
     type="module"
     method="upgrade"
-    version="1.6">
-    <name>mod_horaexata</name>
+    version="1.5.0">
+    <name>MOD_HORAEXATA</name>
     <author>Emerson Rocha Luiz</author>
     <creationDate>2011-09-19</creationDate>
     <copyright>Copyright (C) 2005 - 2011 Webdesign Assessoria em Tecnologia da Informacao.</copyright>
@@ -22,36 +22,5 @@
     </files>
     <languages folder="languages">
         <language tag="en-GB">en-GB/en-GB.mod_horaexata.ini</language>
-        <language tag="en-GB">en-GB/en-GB.mod_horaexata.sys.ini</language>
     </languages>
-
-    <config>
-        <fields name="params">
-            <fieldset name="basic">
-                <field
-                    name="moduleclass_sfx"
-                    type="text"
-                    label="MOD_HORAEXATA_MODULECLASSSFX_LABEL"
-                    description="MOD_HORAEXATA_MODULECLASSSFX_DESC"
-                    default="">
-                </field>  
-                <field
-                    name="modbefore"
-                    type="textarea"
-                    cols="45"
-                    rows="8"
-                    label="MOD_HORAEXATA_MODBEFORE_LABEL"
-                    description="MOD_HORAEXATA_MODBEFORE_DESC">
-                </field>
-                <field
-                    name="modafter"
-                    type="textarea"
-                    cols="45"
-                    rows="8"
-                    label="MOD_HORAEXATA_MODAFTER_LABEL"
-                    description="MOD_HORAEXATA_MODAFTER_DESC">
-                </field> 
-            </fieldset>
-        </fields>
-    </config>
-</extension>
+</install>
