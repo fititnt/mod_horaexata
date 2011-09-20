@@ -16,6 +16,9 @@ também lógicas, seu módulo irá parar de funcionar
 
 ------- Changelog -------
 
+2011-09-19: 0.2RC
+! Few edits. Must be able to work now
+
 2011-09-19: 0.1alpha
 ! Working. RAW data and time 
 

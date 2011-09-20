@@ -10,7 +10,6 @@ defined('_JEXEC') or die;
 
 
 class HoraExata {
-    
 
     /*
      * Get oficial braziliand date and time
